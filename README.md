@@ -20,7 +20,7 @@ sealcall makes the HTTP call itself, in process, and never gives the key to anyt
 macOS 14 or later and the Xcode command line tools. No Apple Developer account.
 
 ```
-git clone https://github.com/nhkhai-vn/sealcall && cd sealcall
+git clone https://github.com/sgl-k/sealcall && cd sealcall
 make signing-identity   # once: creates the "sealcall code signing" certificate in your login keychain
 make install            # builds, signs, installs ~/.local/bin/sealcall
 ```
