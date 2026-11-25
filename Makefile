@@ -1,6 +1,6 @@
 PREFIX ?= $(HOME)/.local
 IDENTITY ?= sealcall code signing
-BUNDLE_ID := io.github.nhkhai-vn.sealcall
+BUNDLE_ID := io.github.k4i-n.sealcall
 BIN := .build/release/sealcall
 
 DEVELOPER_DIR := $(shell xcode-select -p 2>/dev/null)
