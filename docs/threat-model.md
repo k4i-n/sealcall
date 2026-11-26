@@ -1,6 +1,6 @@
 # Threat model
 
-The attacker is a process running as your user: an AI agent, an editor extension, a malicious dependency. It can read and write your files, run any command, and run sealcall. The asset is the key value.
+The attacker is any process running as your user: a malicious dependency or build script, an editor extension, an AI agent following injected instructions. It can read and write your files, run any command, and run sealcall. The asset is the key value.
 
 ## Defenses
 
